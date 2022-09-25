@@ -533,72 +533,90 @@
 
 </footer>
 <div class="backdrop is-hidden" data-modal>
-<div class="modal">
-  <button type="button" class="close-btn" data-modal-close>X</button>
+  <div class="modal">
+    <button type="button" class="modal__close-button" data-modal-close>
+      <svg>
+        <use
+          xlink:href="./images/icons.svg#x"
+          width="11"
+          height="11"
+          x="8"
+          y="9"
+        ></use>
+      </svg>
+    </button>
+    <h6 class="modal__header">Zostaw swoje dane w formularzu poniżej</h6>
 
-  <form class="form">
-  <h6 class="form__heading">Zostaw swoje dane w formularzu poniżej</h6>
+    <label for="full-name" class="modal__hover">
+      Imie
+      <svg class="modal__icon modal__icon-position1">
+        <use
+          xlink:href="./images/icons.svg#person-logo"
+          width="12"
+          height="12"
+        ></use>
+      </svg>
+      <input
+        type="text"
+        name="user-name"
+        class="modal__input"
+        id="full-name"
+    /></label>
 
-  <label for="fullname" class="form__hover">
-   Imie
-   <svg class="form__icons icon-position1">
-    <use
-      xlink:href="./images/icons.svg#person-logo"
-      width="12"
-      height="12"
-    ></use></svg
-  >
-    <input type="text" id="fullname"class="form-input" name="username" placeholder="Jacob Kowalski"/>
-  </label>
+    <label for="phone-number" class="modal__hover">
+      Telefon
+      <svg class="modal__icon modal__icon-position2">
+        <use
+          xlink:href="./images/icons.svg#phone-logo"
+          width="13"
+          height="13"
+        ></use>
+      </svg>
+      <input
+        type="tel"
+        name="phone-number"
+        class="modal__input"
+        id="phone-number"
+    /></label>
 
-  <label for="phone-number" class="form__hover">Telefon
-    <svg class="form-icons icon-position2">
-    <use
-    xlink:href="./images/icons.svg#phone-logo"
-              width="13"
-              height="13"
-            ></use>
-          </svg>
-    <input type="tel" id="phone-number" class="form-input" name="phone_number" />
-  </label>
+    <label for="email" class="modal__hover">
+      Email
+      <svg class="modal__icon modal__icon-position3">
+        <use
+          xlink:href="./images/icons.svg#email2-logo"
+          width="15"
+          height="12"
+        ></use>
+      </svg>
+      <input type="email" name="email" class="modal__input" id="email"
+    /></label>
 
-  <label for="user_email" class="form__hover">Email
-    <svg class="form-icons icon-position3">
-      <use
-        xlink:href="./images/icons.svg#email2-logo"
-        width="15"
-        height="12"
-      ></use></svg
-    >
+    <label class="modal__hover">
+      Komentarz
+      <textarea
+        name="comment"
+        placeholder="Wprowadź tekst"
+        class="modal__input modal__comment"
+      ></textarea>
+    </label>
+    <label class="modal__terms-and-conditions">
+      <input type="checkbox" />
+      <svg class="modal__tick">
+        <use
+          xlink:href="./images/icons.svg#tick"
+          width="11"
+          height="8"
+        ></use>
+      </svg>
+      <span class="modal__checkmark"></span>Oświadczam iż akceptuję
+      <a href="#" class="modal__links">Regulamin</a> i
+      <a href="#" class="modal__links">Politykę Prywatności.</a>
+    </label>
 
-  <input type="email" id="user_email" class="form-input" name="email" id="user_email" />
-  </label>
-
-  <label>
-    Komentarz
-    <textarea name="feedback" rows="5" placeholder="Wprowadź tekst" class="textarea form-input"></textarea>
-    
-  </label>
-
-  <label class="form__statute">
-    <input type="checkbox" />
-    <svg class="tick">
-      <use
-        xlink:href="./images/icons.svg#tick"
-        width="11"
-        height="8"
-      ></use>
-      
-    </svg>
-    <span class="form__marker"></span>
-   <p class="form__text"> Oświadczam iż akceptuję <a href="#" class="blue-text">Regulamin</a> i <a href="#" class="blue-text">Politykę Prywatności.</a></p>
-  </label>
-
-  <button type="submit" class="form__button">Wyślij</button>
-
-</form>
-
-</div>
+    <label>
+      <button type="submit" class="modal__button">Wyślij</button>
+    </label>
+  </div>
 </div>
 <script src="./js/modal.js"></script>
   </body>
