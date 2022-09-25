@@ -13,38 +13,38 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+  
   <title>WebStudio</title>
 </head>
 <body>
-    <header class="container header style-line">
-     <a href="index.html" class="webstudio no-line "
-       ><span class="blue-text">Web</span>Studio</a>
-       
-       
-       <nav>
-       <ul class="nav nav__style">
+  <div>
+   <header class="container header">   
+    <a href="index.html" class="header__logo"
+      ><span class="header__logo-color">Web</span>Studio</a>
+      <nav>
+      <ul class="header__nav">
+    <li>
+      <a href="index.html" class="header__nav-color">Agencja</a>
+     </li>
      <li>
-       <a href="index.html" class="no-line blue-text nav__link">Agencja</a>
-      </li>
-      <li>
-       <a href="portfolio.html" class="no-line blue-text nav__link touch__link touch">Portfolio</a>
-      </li>
-      <li>
-       <a href="kontakt.html" class="no-line blue-text nav__link">Kontakt</a>
-      </li>
-     </ul>
-   </nav>
+      <a href="portfolio.html" class="header__nav-color header__active">Portfolio</a>
+     </li>
+     <li>
+      <a href="kontakt.html" class="header__nav-color">Kontakt</a>
+     </li>
+    </ul>
+  </nav>
 
-   <ul class="contact nav">
+   <ul class="header__contact">
     <li>
       <b>
-        <a href="mailto:" Info@devstudio.com class="no-line contact__link blue-text icons__header">
+        <a href="mailto:" Info@devstudio.com class="header__contact-color">
       <svg class="icon__logo"  width="16" height="12">
       <use xlink:href="./images/icons.svg#email-logo" >
       </use>
     </svg> Info@devstudio.com</a></b>
        </li>
-       <li><a href=tel:+48111111111 class="no-line contact__link blue-text icons__header">
+       <li><a href=tel:+48111111111 class="header__contact-color">
         <svg class="icon__logo"  width="10" height="16" >
         <use xlink:href="./images/icons.svg#smartphone-logo"></use>
       </svg> +48111111111</a>
@@ -54,7 +54,7 @@
   </header>
 </div>
 
-    <div>
+<div class="header-line-border"></div>
       <main>
         <ul class="buttons__menu">
             <li>
@@ -75,10 +75,10 @@
                    </ul>
                   </div>
 <div class="container">
-  <ul class="project__container no-padding">
+  <ul class="project__container">
    <li class="project__item">
-   <div class="box__anim">
-    <div class="project__anim">
+   <div class="description-hidden">
+    <div class="description-slidein">
       <p>Technocrack jest popularną<br> platformą wykorzystywaną do<br> rozpowszechniania koronawirusa.<br>
          Firmy wykorzystują tę platformę do<br> celów szpiegowskich i ataków na<br> niezabezpieczone serwery<br>
           konkurencji </p>
@@ -90,8 +90,8 @@
             <p class="project__text">Strona internetowa</p></div>
   </li>
    <li class="project__item">
-    <div class="box__anim">
-      <div class="project__anim">
+    <div class="description-hidden">
+      <div class="description-slidein">
         <p>Technocrack jest popularną<br> platformą wykorzystywaną do<br> rozpowszechniania koronawirusa.<br>
            Firmy wykorzystują tę platformę do<br> celów szpiegowskich i ataków na<br> niezabezpieczone serwery<br>
             konkurencji </p>
@@ -99,12 +99,13 @@
     </div>
     <img src=images/port2.jpg alt="grafika">
     <div class="project__style">
-    <h4>Grafika New Orlean vs Golden Star</h4>
-    <p>Dizajn</p></div>
+    <h4 class="project__name">Grafika New Orlean vs Golden Star</h4>
+    <p class="project__text">Dizajn</p>
+  </div>
   </li>
    <li class="project__item">
-    <div class="box__anim">
-      <div class="project__anim">
+    <div class="description-hidden">
+      <div class="description-slidein">
         <p>Technocrack jest popularną<br> platformą wykorzystywaną do<br> rozpowszechniania koronawirusa.<br>
            Firmy wykorzystują tę platformę do<br> celów szpiegowskich i ataków na<br> niezabezpieczone serwery<br>
             konkurencji </p>
@@ -112,12 +113,12 @@
     </div>
     <img src=images/port3.jpg alt="restauracja">
     <div class="project__style">
-    <h4>Restauracja Seafood</h4>
-    <p>Aplikacja<p></div>
+    <h4 class="project__name">Restauracja Seafood</h4>
+    <p class="project__text">Aplikacja<p></div>
   </li>
    <li class="project__item">
-    <div class="box__anim">
-      <div class="project__anim">
+    <div class="description-hidden">
+      <div class="description-slidein">
         <p>Technocrack jest popularną<br> platformą wykorzystywaną do<br> rozpowszechniania koronawirusa.<br>
            Firmy wykorzystują tę platformę do<br> celów szpiegowskich i ataków na<br> niezabezpieczone serwery<br>
             konkurencji </p>
@@ -125,12 +126,12 @@
     </div>
     <img src=images/port4.jpg alt="project-prime">
     <div class="project__style">
-    <h4>Projekt Prime</h4>
-     <p>Marketing</p></div>
+    <h4 class="project__name">Projekt Prime</h4>
+     <p class="project__text">Marketing</p></div>
   </li>
    <li class="project__item">
-    <div class="box__anim">
-      <div class="project__anim">
+    <div class="description-hidden">
+      <div class="description-slidein">
         <p>Technocrack jest popularną<br> platformą wykorzystywaną do<br> rozpowszechniania koronawirusa.<br>
            Firmy wykorzystują tę platformę do<br> celów szpiegowskich i ataków na<br> niezabezpieczone serwery<br>
             konkurencji </p>
@@ -138,12 +139,12 @@
     </div>
     <img src=images/port5.jpg alt="project-box">
     <div class="project__style">
-    <h4>Projekt Boxes</h4>
-    <p>Aplikacja</p></div>
+    <h4 class="project__name">Projekt Boxes</h4>
+    <p class="project__text">Aplikacja</p></div>
   </li>
    <li class="project__item">
-    <div class="box__anim">
-      <div class="project__anim">
+    <div class="description-hidden">
+      <div class="description-slidein">
         <p>Technocrack jest popularną<br> platformą wykorzystywaną do<br> rozpowszechniania koronawirusa.<br>
            Firmy wykorzystują tę platformę do<br> celów szpiegowskich i ataków na<br> niezabezpieczone serwery<br>
             konkurencji </p>
@@ -151,12 +152,12 @@
     </div>
     <img src=images/port6.jpg alt="inspiration">
     <div class="project__style">
-    <h4>Inspiration has no Borders</h4>
-    <p>Strona internetowa</p></div>
+    <h4 class="project__name">Inspiration has no Borders</h4>
+    <p class="project__text">Strona internetowa</p></div>
   </li>
    <li class="project__item">
-    <div class="box__anim">
-      <div class="project__anim">
+    <div class="description-hidden">
+      <div class="description-slidein">
         <p>Technocrack jest popularną<br> platformą wykorzystywaną do<br> rozpowszechniania koronawirusa.<br>
            Firmy wykorzystują tę platformę do<br> celów szpiegowskich i ataków na<br> niezabezpieczone serwery<br>
             konkurencji </p>
@@ -164,12 +165,13 @@
     </div>
     <img src=images/port7.jpg alt="magazyn">
     <div class="project__style">
-    <p>Magazyn Limited Edition</p>
-    <p>Dizajn</p></div>
+    <h4  class="project__name">Magazyn Limited Edition</h4>
+    <p class="project__text">Dizajn</p>
+  </div>
   </li>
    <li class="project__item">
-    <div class="box__anim">
-      <div class="project__anim">
+    <div class="description-hidden">
+      <div class="description-slidein">
         <p>Technocrack jest popularną<br> platformą wykorzystywaną do<br> rozpowszechniania koronawirusa.<br>
            Firmy wykorzystują tę platformę do<br> celów szpiegowskich i ataków na<br> niezabezpieczone serwery<br>
             konkurencji </p>
@@ -177,12 +179,12 @@
     </div>
     <img src=images/port8.jpg alt="project-lab">
     <div class="project__style">
-    <h4>Projekt LAB</h4>
-    <p>Marketing<p></div>
+    <h4 class="project__name">Projekt LAB</h4>
+    <p class="project__text">Marketing<p></div>
   </li>
    <li class="project__item">
-    <div class="box__anim">
-      <div class="project__anim">
+    <div class="description-hidden">
+      <div class="description-slidein">
         <p>Technocrack jest popularną<br> platformą wykorzystywaną do<br> rozpowszechniania koronawirusa.<br>
            Firmy wykorzystują tę platformę do<br> celów szpiegowskich i ataków na<br> niezabezpieczone serwery<br>
             konkurencji </p>
@@ -190,23 +192,23 @@
     </div>
     <img src=images/port9.jpg alt="bussines">
     <div class="project__style">
-    <h4>Growing Business</h4>
-    <p>Aplikacja</p></div>
+    <h4 class="project__name">Growing Business</h4>
+    <p class="project__text">Aplikacja</p></div>
   </li>
   </ul>
 </div>
 </main>                   
 
 
-<footer class="footer">
-  <div class="container footer__container">
-    <div class="footer__contacts">
-  <a href="index.html" class="webstudio no-line white-logo"><span class="blue-text">Web</span>Studio</a>
-     <adress class="footer__adress no-margin">
+<footer>
+  <div class="container footer">
+    <div>
+  <a href="index.html" class="footer__logo"><span class="footer__logo-color">Web</span>Studio</a>
+     <adress class="footer__adress">
       <p> m. Warszawa, Aleje Jerozolimskie 21</p>
-      <ul class="footer__list footer__link no">
-    <li><a href="mailto:info@example.com" class="footer__link no-line"> info@example.com</a></li>
-    <li><a href=tel:+48111111111 class="footer__link no-line">+48 111 111 111</a> </li>
+      <ul class="footer__links">
+    <li><a href="mailto:info@example.com" class="footer__link"> info@example.com</a></li>
+    <li><a href=tel:+48111111111 class="footer__link">+48 111 111 111</a> </li>
   </ul>
   </adress> 
 </div>
@@ -273,10 +275,10 @@
 <div>
   <h4 class="footer__heading"> Zapisz się do newslettera</h4>
   
-  <input type="text" class="signup" placeholder="E-mail" />
-  <button type="submit" class="signup__button">
+  <input type="text" class="footer__sign-up" placeholder="E-mail" />
+  <button type="submit" class="footer__button">
     Zapisz się
-    <svg class="signup__logo">
+    <svg class="footer__button-icon">
       <use
         xlink:href="./images/icons.svg#send"
         width="24"
