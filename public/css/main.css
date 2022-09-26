@@ -635,6 +635,7 @@ footer {
   line-height: 1.6;
   padding-left: 24px;
   padding-top: 20px;
+  cursor: pointer;
 }
 
 .backdrop {
@@ -823,7 +824,7 @@ footer {
 
 body {
   font-family: "Roboto", sans-serif, "Raleway", sans-serif;
-  background-color: rgba(47, 48, 58, 0.4);
+  background-color: #fff;
   color: #757575;
   font-size: 14px;
   letter-spacing: 0.03em;

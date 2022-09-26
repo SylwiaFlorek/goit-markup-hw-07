@@ -9,9 +9,8 @@
 @import "./components/modal";
 
 body {
-  
   font-family:$standard-font,$logo-font;
-  background-color: $background-mix;
+  background-color:$primary-color;
   color: $primary-text;
   font-size: map-get($font-size, standard);
   letter-spacing: map-get($letter-spacing, standard);
