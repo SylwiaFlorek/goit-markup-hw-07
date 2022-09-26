@@ -36,6 +36,7 @@ footer{
     color:$hover-text;
   }
   &__heading{
+    font-family:$standard-font;
     font-weight:map-get($font-weight,bold);
     font-size:map-get($font-size,standard);
     color:$primary-color;
@@ -69,6 +70,7 @@ footer{
       height:50px;
       color:rgba(255,255,255,.6);
       padding:16px;
+      font-family:$standard-font;
       font-size:map-get($font-size,enlarged);
     }
     &__button{
