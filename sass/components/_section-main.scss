@@ -83,14 +83,21 @@
     @include flexCenter(column);
     padding:94px 0;
     gap:50px;
+
     &__background{
       background-color:$background-card;
     }
+
   &__heading{
+
+    font-family:$standard-font;
     font-size:map-get($font-size,section-header);
-    color:$border-color;
-  
- }}
+    padding-bottom: 50px;
+    text-align: center;
+    font-size: map-get($font-size, bold);
+     color:$secondary-text;
+  }
+ }
 
   .job {
     @include flex(row);

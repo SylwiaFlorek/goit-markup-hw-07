@@ -238,8 +238,11 @@
   background-color: #f5f4fa;
 }
 .block__heading {
+  font-family: "Roboto", sans-serif;
   font-size: 36px;
-  color: rgba(33, 33, 33, 0.2);
+  padding-bottom: 50px;
+  text-align: center;
+  color: #212121;
 }
 
 .job {
@@ -532,8 +535,10 @@ footer {
   margin: 94px 0 0 0;
 }
 .buttons__style {
-  background-color: #f5f4fa;
+  background-color: #2196f3;
   border-width: 0;
+  color: #fff;
+  width: 121px;
   height: 38px;
   font-size: 16px;
   font-weight: 500;
@@ -541,6 +546,8 @@ footer {
   border-radius: 3px;
   padding: 6px 22px;
   font-family: "Roboto";
+  border-style: none;
+  cursor: pointer;
   -webkit-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
