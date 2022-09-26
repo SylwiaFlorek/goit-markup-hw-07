@@ -603,7 +603,7 @@ footer {
   font-weight: 700;
   letter-spacing: 0.06em;
   line-height: 2;
-  margin: 20px 0 20px 24px;
+  margin: 20px 0 0 24px;
 }
 .project__style {
   border: transparent solid 1px;
@@ -613,7 +613,7 @@ footer {
   font-family: "Roboto";
   line-height: 1.88;
   font-size: 14px;
-  margin: 0 0 0 24px;
+  margin: 0 0 20px 24px;
 }
 
 .style-line {
