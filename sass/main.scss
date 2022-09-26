@@ -2,7 +2,9 @@
 @import "./untils/resets";
 @import "./untils/fonts";
 @import "./untils/mixins";
-
+@import "./components/header";
+@import "./components/section-main";
+@import "./components/footer";
 @import "./components/modal";
 
 body {

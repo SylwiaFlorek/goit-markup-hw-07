@@ -66,7 +66,7 @@
   justify-content: center;
   gap: 50px;
   margin-left: auto;
-  font-family: "Roboto"
+  font-family: "Roboto";
 }
 .header__contact-color{
   color:#757575;
@@ -128,7 +128,7 @@
   box-shadow: inset 1px 1px 1px 1px hsla(0, 0%, 0%, 0.3);
 }
 /*Lorem list*/
-.lorem__list {
+.lorem {
   display: flex;
   list-style: none;
   flex-direction: row;
@@ -156,7 +156,7 @@
   align-items: center;
 }
 .lorem__icon:hover {
-  fill: var(--blue);
+  fill: #2196f3;
 }
 .lorem__text {
   line-height: 0.03em;
@@ -180,7 +180,7 @@
 .block__background{
   background-color:#f5f4fa
 }
-.job__list {
+.job {
   display: flex;
   list-style-type: none;
   gap: 30px;
@@ -285,7 +285,7 @@ img {
   background-color:#2196f3;
 }
 /*Nasi klienci*/
-.client__logos {
+.client {
   display: flex;
   gap: 30px;
   list-style: none;
