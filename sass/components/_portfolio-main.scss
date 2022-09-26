@@ -8,8 +8,10 @@
     margin:94px 0 0 0;
   
   &__style{
-    background-color:$background-card;
+    background-color:$hover-text;
     border-width:0;
+    color:$primary-color;
+    width: 121px;
     height:38px;
     font-size: map-get($font-size, enlarged);
     font-weight: map-get($font-weight, medium);
@@ -17,8 +19,13 @@
     border-radius:3px;
     padding:6px 22px;
     font-family:"Roboto";
+    border-style: none;
+    cursor: pointer;
     transition:250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
+
+
+
   
  &__style:focus,
  &__style:hover{
