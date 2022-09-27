@@ -8,9 +8,9 @@
     margin:94px 0 0 0;
   
   &__style{
-    background-color:$hover-text;
+    background-color:$background-card;
     border-width:0;
-    color:$primary-color;
+    color:$secondary-text;
     height:38px;
     font-size: map-get($font-size, enlarged);
     font-weight: map-get($font-weight, medium);
@@ -23,9 +23,6 @@
     transition:250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
-
-
-  
  &__style:focus,
  &__style:hover{
     box-shadow:0px 3px 1px rgba(0,0,0,.1),
