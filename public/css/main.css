@@ -163,7 +163,6 @@
           box-shadow: inset 1px 1px 1px 1px hsla(0deg, 0%, 0%, 0.3);
 }
 
-/*Lorem list*/
 .lorem {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -216,7 +215,6 @@
   line-height: 1.1428571429;
 }
 
-/*czym sie zajmujemy*/
 .block {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -376,7 +374,6 @@ img {
   background-color: #2196f3;
 }
 
-/*Nasi klienci*/
 .client {
   display: -webkit-box;
   display: -ms-flexbox;
